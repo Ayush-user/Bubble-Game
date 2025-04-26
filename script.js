@@ -3,13 +3,10 @@ let score=0;
 let hitrn=0;
 
 
-// just a comment to check the commit
 function incScore() {
     score+=10;
     document.querySelector("#incscore").textContent=score;
 }
-
-//No such issues working fine
   
 function makeBubble() {
 let clutter="";
